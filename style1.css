@@ -1,0 +1,68 @@
+.menu{
+    padding: 0;
+    list-style-type: none;
+    width: 960px;
+    background-color: blue;
+    border-bottom: 5px solid orange;
+    min-height: 57px;
+    margin: 0 auto;
+}
+.menu li{
+    float: left;
+    border-right: 2px solid yellow;
+   
+
+}
+.menu li a{
+    color:wheat;
+    text-decoration: none;
+    background-color: blue;
+    padding: 20px 30px;
+    display: block;
+    transition: 5s all ease;
+}
+.menu li a:hover{
+    background-color:black;
+}
+.one{
+    text-align:center;
+    color: wheat;
+    background-color: green;
+
+}
+.wrapper{
+    *{margin: 0; padding: 0;}
+    display: flex;
+
+}
+.two h2{
+    color: red;
+    text-align: center;
+
+
+}
+.two p{
+    text-align:center;
+}
+.two a{
+    color: red;
+    background-color: green;
+    
+
+}
+.block1{
+    color:wheat;
+    background-color:green;
+    width:200px;
+    height:200px;
+    margin-top: 30px;
+    transition: all 2s ease;
+    padding: 50px;
+    animation-iteration-count: 5 ;
+    
+    
+}
+.block1:hover{
+    background-color: red;
+
+}
